@@ -23,7 +23,7 @@ class Cache {
    *           must return less than 16 MB of content
    * @param $args the arguments to pass to the callback, if any
    */
-  function get(Connection $db, $key, $hash, $age, $callback, $args = array()) {
+  static function get(Connection $db, $key, $hash, $age, $callback, $args = array()) {
     if (strlen($hash) > 255) {
       throw new CacheException("Cannot cache with a key longer than 255 characters");
     }
