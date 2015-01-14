@@ -3,7 +3,7 @@
   "description": "A library for defining cacheable resources",
   "autoload": {
     "psr-4": {
-      "Openclerk\\Cache\\": "src"
+      "Openclerk\\": "src"
     }
   },
   "require": {
