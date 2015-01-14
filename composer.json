@@ -1,0 +1,15 @@
+{
+  "name": "openclerk/cache",
+  "description": "A library for defining cacheable resources",
+  "autoload": {
+    "psr-4": {
+      "Openclerk\\Cache\\": "src"
+    }
+  },
+  "require": {
+    "openclerk/db": "~0.1"
+  },
+  "require-dev": {
+    "soundasleep/component-tests": "dev-master"
+  }
+}
