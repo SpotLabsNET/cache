@@ -7,7 +7,7 @@
     }
   },
   "require": {
-    "openclerk/db": "dev-master"
+    "openclerk/db": "^0.1"
   },
   "require-dev": {
     "soundasleep/component-tests": "dev-master"
